@@ -1,6 +1,7 @@
 import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Category from "./components/Category";
+import TopSelling from "./components/TopSelling";
 
 
 export default function Home() {
@@ -24,8 +25,9 @@ export default function Home() {
         <div className="absolute top-0 right-0 -z-10">
           <img src="/images/plus-group.png" alt="blob background shape" />
         </div>
-
     </div>
+
+     <TopSelling />
 
      
      </div>
