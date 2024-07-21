@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Category from "./components/Category";
 import TopSelling from "./components/TopSelling";
 import BookNextTrip from "./components/BookNextTrip";
-
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -31,8 +31,8 @@ export default function Home() {
      <TopSelling />
 
      <BookNextTrip />
-
-     
+      
+      <Testimonials />
      </div>
     </main>
   );
