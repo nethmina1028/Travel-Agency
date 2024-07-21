@@ -4,6 +4,7 @@ import Category from "./components/Category";
 import TopSelling from "./components/TopSelling";
 import BookNextTrip from "./components/BookNextTrip";
 import Testimonials from "./components/Testimonials";
+import LogoGroup from "./components/LogoGroup";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
      <BookNextTrip />
       
       <Testimonials />
+
+      <LogoGroup />
      </div>
     </main>
   );
