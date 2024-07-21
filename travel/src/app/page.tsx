@@ -2,6 +2,7 @@ import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Category from "./components/Category";
 import TopSelling from "./components/TopSelling";
+import BookNextTrip from "./components/BookNextTrip";
 
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
     </div>
 
      <TopSelling />
+
+     <BookNextTrip />
 
      
      </div>
