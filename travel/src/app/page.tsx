@@ -5,6 +5,8 @@ import TopSelling from "./components/TopSelling";
 import BookNextTrip from "./components/BookNextTrip";
 import Testimonials from "./components/Testimonials";
 import LogoGroup from "./components/LogoGroup";
+import Footer from "./components/Footer";
+
 
 export default function Home() {
   return (
@@ -36,7 +38,11 @@ export default function Home() {
       <Testimonials />
 
       <LogoGroup />
+      
+     
+    
      </div>
+     <Footer />
     </main>
   );
 }
